@@ -9,15 +9,18 @@ inst <- function()
   n_fromtheRight <- max(1,nchar(folderName)-6)
   folderName_n_fromtheRight <- substring(text=folderName, first = n_fromtheRight)
 
-  if (folderName_n_fromtheRight == ".Rcheck")
+  if (!file.exists('data'))
+  # if (folderName_n_fromtheRight == ".Rcheck")
     # ie folderName of working directory contains ".Rcheck"
     {
-      setwd(PackageName)
-      system(command = "mkdir data/dumps")          # make directory
-      system(command = "mkdir data/dumps/last")          # make directory
-      system(command = "mkdir data/dumps/specific")      # make directory
-      system(command = "mkdir data/pics")           # make directory
-      system(command = "mkdir data/updates")        # make directory
+      # setwd(PackageName)
+      dir.create("data")          		# make directory
+      dir.create("data/dumps")          # make directory
+      dir.create("data/dumps")          # make directory
+      dir.create("data/dumps/last")     # make directory
+      dir.create("data/dumps/specific") # make directory
+      dir.create("data/pics")           # make directory
+      dir.create("data/updates")        # make directory
     } # if 
   
   
