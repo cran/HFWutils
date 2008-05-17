@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HEAD></HEAD><HTML><BODY>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package HFWutils:  Contents">
+<param name="Local" value="00Index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package HFWutils:  R objects">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="align">
+<param name="Local" value="align.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="as.ExcelDate">
+<param name="Local" value="ExcelDate.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="ByRef">
+<param name="Local" value="ByRef.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Clean">
+<param name="Local" value="Clean-methods.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Clean,list,character-method">
+<param name="Local" value="Clean-methods.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Clean,matrix,character-method">
+<param name="Local" value="Clean-methods.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Clean,vector,character-method">
+<param name="Local" value="Clean-methods.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Clean-methods">
+<param name="Local" value="Clean-methods.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="cleanTexts">
+<param name="Local" value="cleanTexts.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Contacts">
+<param name="Local" value="Contacts.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="df2matrix">
+<param name="Local" value="df2matrix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="doReplace">
+<param name="Local" value="doReplace.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="excelDate2Date">
+<param name="Local" value="excelDate2Date.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="extractFromList">
+<param name="Local" value="extractFromList.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="gcHFW">
+<param name="Local" value="gcHFW.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="getFunctionName">
+<param name="Local" value="getFunctionName.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="initReplaceBy">
+<param name="Local" value="initReplaceBy.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="inst">
+<param name="Local" value="inst.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="largeDataframe">
+<param name="Local" value="largeDataframe.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="logDataframe">
+<param name="Local" value="logDataframe.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="logMessage">
+<param name="Local" value="logMessage.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Matches">
+<param name="Local" value="Matches.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="MatchesIndices">
+<param name="Local" value="MatchesIndices.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="matrix2df">
+<param name="Local" value="matrix2df.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="profiling">
+<param name="Local" value="profiling.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="sourceRfiles">
+<param name="Local" value="sourceRfiles.html">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package HFWutils:  Titles">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="adds spaces, removes multiple spaces, and trims spaces ">
+<param name="Local" value="cleanTexts.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="align ordering of two vectors">
+<param name="Local" value="align.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="convert date to Excel date integer">
+<param name="Local" value="ExcelDate.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="convert Excel date integer to date">
+<param name="Local" value="excelDate2Date.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="data.frame to  matrix ">
+<param name="Local" value="df2matrix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="extract variables From List">
+<param name="Local" value="extractFromList.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="garbage collection in global  environment ">
+<param name="Local" value="gcHFW.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="knows name of current function ">
+<param name="Local" value="getFunctionName.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="log message in message.csv ">
+<param name="Local" value="logMessage.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="matrix to data.frame">
+<param name="Local" value="matrix2df.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="object for passing by reference ">
+<param name="Local" value="ByRef.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="performs replacements in a string ">
+<param name="Local" value="doReplace.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="plots tree of execution times">
+<param name="Local" value="profiling.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="produce dataframe with constant columns ">
+<param name="Local" value="largeDataframe.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="provides boolean vectors where matches were found">
+<param name="Local" value="MatchesIndices.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="provides path to working directory">
+<param name="Local" value="inst.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="remove a pattern in an object">
+<param name="Local" value="Clean-methods.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="save a dataframe in a dumps directory">
+<param name="Local" value="logDataframe.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="sets up dataframe used by doReplace">
+<param name="Local" value="initReplaceBy.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="source all files in a given folder">
+<param name="Local" value="sourceRfiles.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="string and patterns matching in character Vector ">
+<param name="Local" value="Matches.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="~~ data name/kind ... ~~">
+<param name="Local" value="Contacts.html">
+</OBJECT>
+</UL>
+</UL>
+</BODY></HTML>

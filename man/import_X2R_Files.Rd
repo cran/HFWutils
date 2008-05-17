@@ -1,20 +1,21 @@
-\name{import.X2R.Files}
-\alias{import.X2R.Files}
+\name{import_X2R_Files}
+\alias{import_X2R_Files}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ ~~ function to do ... ~~ }
+\title{ ~~function to do ... ~~ }
 \description{
 all csv  from a given folder are loaded into a variable, G, where
-G is a list.
+G is an object as produced and supported by the package R.oo. This is chosen for efficiency as G is passed by reference.
 }
 \usage{
-import.X2R.Files(pfad = "data/X2R/")
+import_X2R_Files(G, pfad = "data/X2R/")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{pfad}{ ~~ Describe \code{pfad} here ~~ }
+  \item{G}{ ~~Describe \code{G} here~~ }
+  \item{pfad}{ ~~Describe \code{pfad} here~~ }
 }
 \details{
-  ~~ If necessary more details than the description above ~~
+  ~~ If necessary, more details than the description above ~~
 }
 \value{
   ~Describe the value returned
@@ -25,8 +26,11 @@ import.X2R.Files(pfad = "data/X2R/")
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{  Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~ further notes ~~ }
-\seealso{ ~~objects to See Also as \code{\link{export.R2X.Files}}, ~~~ }
+\note{ ~~further notes~~ 
+
+ ~Make other sections like Warning with \section{Warning }{....} ~
+}
+\seealso{ ~~objects to See Also as \code{\link{export_R2X_Files}}, ~~~ }
 \examples{
 
 }

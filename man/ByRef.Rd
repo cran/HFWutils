@@ -25,6 +25,7 @@ ByRef(Name, vars)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
+\note{ ~~further notes~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
 

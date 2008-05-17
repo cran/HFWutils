@@ -1,0 +1,125 @@
+<html><head><title>performs replacements in a string</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>doReplace(HFWutils)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   doReplace">
+<param name="keyword" value=" performs replacements in a string">
+</object>
+
+
+<h2>performs replacements in a string</h2>
+
+
+<h3>Description</h3>
+
+<p>
+performs replacements in a string using a dataframe set up with initReplaceBy
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+doReplace(sqlCommand, ReplaceBy, fixed = TRUE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>sqlCommand</code></td>
+<td>
+the target string </td></tr>
+<tr valign="top"><td><code>ReplaceBy</code></td>
+<td>
+a dataframe set up with initReplaceBy </td></tr>
+<tr valign="top"><td><code>fixed</code></td>
+<td>
+~~Describe <code>fixed</code> here~~ </td></tr>
+</table>
+
+<h3>Details</h3>
+
+<p>
+~~ If necessary, more details than the description above ~~
+</p>
+
+
+<h3>Value</h3>
+
+<p>
+~Describe the value returned
+If it is a LIST, use
+</p>
+<table summary="R argblock">
+<tr valign="top"><td><code>comp1 </code></td>
+<td>
+Description of 'comp1'</td></tr>
+<tr valign="top"><td><code>comp2 </code></td>
+<td>
+Description of 'comp2'</td></tr>
+</table>
+<p>
+
+...</p>
+
+<h3>Warning</h3>
+
+<p>
+....
+</p>
+
+
+<h3>Note</h3>
+
+<p>
+~~further notes~~ 
+</p>
+<p>
+~Make other sections like Warning with section{Warning }{....} ~
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>
+Felix Wittmann <a href="mailto:hfwittmann@gmail.com">hfwittmann@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>
+~put references to the literature/web site here ~
+</p>
+
+
+<h3>See Also</h3>
+
+<p>
+~~objects to See Also as <code><a href="initReplaceBy.html">initReplaceBy</a></code>, ~~~
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+      ReplaceBy &lt;- initReplaceBy(2)
+      ReplaceBy[1,]  &lt;- c(Replace = "TABLE"          , By = 'USArrests')
+      ReplaceBy[2,]  &lt;- c(Replace = "CONDITION"      , By = 'Assault&gt;250')
+
+      sqlCommand &lt;- "SELECT * FROM TABLE WHERE CONDITION"
+      doReplace(sqlCommand, ReplaceBy)
+      # "SELECT * FROM USArrests WHERE Assault&gt;250"
+      
+</pre>
+
+
+
+<hr><div align="center">[Package <em>HFWutils</em> version 0.7.2007.09.02 <a href="00Index.html">Index]</a></div>
+
+</body></html>

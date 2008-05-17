@@ -1,0 +1,162 @@
+%PDF-1.4
+%Å‚Å„ÅœÅ”\r
+1 0 obj
+<<
+/CreationDate (D:20070228001222)
+/ModDate (D:20070228001222)
+/Title (R Graphics Output)
+/Producer (R 2.4.0)
+/Creator (R)
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /ZapfDingbats
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Contents 7 0 R
+/Resources 4 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 8 0 R
+>>
+stream
+q
+Q q 0.00 0.00 501.75 501.75 re W n
+Q q 23.04 11.52 455.67 478.71 re W n
+0.000 0.804 0.000 RG
+0.38 w
+[] 0 d
+1 J
+1 j
+10.00 M
+422.28 299.52 m 142.69 191.41 l S
+105.84 299.52 m 142.69 191.41 l S
+338.77 299.52 m 380.70 191.41 l S
+1.000 0.000 0.000 RG
+234.65 191.41 m 250.87 83.30 l S
+0.000 0.804 0.000 RG
+338.77 299.52 m 234.65 191.41 l S
+233.30 299.52 m 77.78 191.41 l S
+1.000 1.000 1.000 rg
+29.65 413.26 71.99 10.36 re f
+89.38 391.64 21.13 10.36 re f
+98.58 413.26 61.04 10.36 re f
+129.00 186.23 27.39 10.36 re f
+145.35 391.64 25.82 10.36 re f
+159.34 413.26 49.30 10.36 re f
+195.84 391.64 41.48 10.36 re f
+398.41 294.34 47.74 10.36 re f
+220.02 413.26 71.99 10.36 re f
+70.23 294.34 71.21 10.36 re f
+271.39 391.64 34.43 10.36 re f
+340.79 186.23 79.82 10.36 re f
+288.18 413.26 62.60 10.36 re f
+242.66 78.12 16.43 10.36 re f
+331.75 391.64 68.08 10.36 re f
+204.91 186.23 59.47 10.36 re f
+311.38 294.34 54.78 10.36 re f
+58.22 186.23 39.13 10.36 re f
+197.69 294.34 71.21 10.36 re f
+384.50 413.26 41.48 10.36 re f
+413.47 391.64 55.56 10.36 re f
+BT
+0.000 0.000 0.000 rg
+/F2 1 Tf 10.00 0.00 0.00 10.00 31.31 414.93 Tm (.constructPaths) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 89.39 394.33 Tm (align) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 99.72 414.93 Tm (as.ExcelDate) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 129.08 188.84 Tm (ByRef) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 145.20 393.23 Tm (Clean) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 160.56 414.93 Tm (cleanTexts) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 195.94 393.26 Tm (df2matrix) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 398.38 296.97 Tm (doReplace) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 220.60 414.93 Tm (excelDate2Date) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 71.59 296.01 Tm (extractFromList) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 271.94 394.33 Tm (gcHFW) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 341.24 188.92 Tm (getFunctionName) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 288.91 415.93 Tm (initReplaceBy) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 243.09 79.79 Tm (inst) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 331.38 394.28 Tm (largeDataframe) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 204.69 188.87 Tm (logDataframe) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 311.82 297.03 Tm (logMessage) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 58.89 187.90 Tm (Matches) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 198.56 296.01 Tm (MatchesIndices) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 384.60 414.88 Tm (matrix2df) Tj
+/F2 1 Tf 10.00 0.00 0.00 10.00 413.75 393.26 Tm (sourceRfiles) Tj
+ET
+Q
+endstream
+endobj
+8 0 obj
+2406
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids [
+6 0 R
+]
+/Count 1
+/MediaBox [0 0 501 501]
+>>
+endobj
+4 0 obj
+<<
+/ProcSet [/PDF /Text]
+/Font << /F1 5 0 R /F2 10 0 R >>
+/ExtGState << >>
+>>
+endobj
+9 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+/Differences [ 45/minus 96/quoteleft
+144/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+/dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron /space]
+>>
+endobj
+10 0 obj <<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Helvetica
+/Encoding 9 0 R
+>> endobj
+xref
+0 11
+0000000000 65535 f 
+0000000021 00000 n 
+0000000163 00000 n 
+0000002854 00000 n 
+0000002937 00000 n 
+0000000212 00000 n 
+0000000295 00000 n 
+0000000375 00000 n 
+0000002834 00000 n 
+0000003030 00000 n 
+0000003287 00000 n 
+trailer
+<<
+/Size 11
+/Info 1 0 R
+/Root 2 0 R
+>>
+startxref
+3384
+%%EOF

@@ -4,21 +4,30 @@
 \title{adds spaces, removes multiple spaces, and trims spaces }
 \description{
       vectorised clean up does three things
-      a) adds spaces around special characters
+      a) adds spaces around special characters \code{,\\.\\":!?;()-}
       b) gets rid of multiple spaces
       c) trims leading and trailing spaces 
 }
-\usage{cleanTexts(x)}
-
-\arguments{
-  \item{x}{ ~~ Describe \code{x} here ~~ }
+\usage{
+cleanTexts(x)
 }
-
-\details{ ~~ If necessary more details than the description above ~~ }
-
+%- maybe also 'usage' for other objects documented here.
+\arguments{
+  \item{x}{ ~~Describe \code{x} here~~ }
+}
+\details{
+  ~~ If necessary, more details than the description above ~~
+}
+\value{
+  ~Describe the value returned
+  If it is a LIST, use
+  \item{comp1 }{Description of 'comp1'}
+  \item{comp2 }{Description of 'comp2'}
+  ...
+}
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~ further notes ~~ }
+\note{ ~~further notes~~ }
 
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{

@@ -1,12 +1,11 @@
   largeDataframe <- function(smallDf,Times)
 
     {
-      
-      smallDf.unlisted            <- unlist(smallDf)
-             
-      M   <- matrix(rep(smallDf.unlisted,times=Times),nrow=Times,byrow=TRUE)
+
+      M   <- matrix(rep(as.matrix(smallDf),times=Times),nrow=Times,byrow=TRUE)
       Df   <- as.data.frame(M)
-      names(Df) <- names(smallDf)
+      names(Df) <- names(as.data.frame(smallDf))
+
 
       return( Df)
 

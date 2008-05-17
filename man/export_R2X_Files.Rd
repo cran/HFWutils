@@ -1,20 +1,20 @@
-\name{export.R2X.Files}
-\alias{export.R2X.Files}
+\name{export_R2X_Files}
+\alias{export_R2X_Files}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ ~~ function to do ... ~~ }
+\title{ ~~function to do ... ~~ }
 \description{
-  export all variables held in R2X into csv files
+  export all variables held in G\$.R2X into csv files
 }
 \usage{
-export.R2X.Files(R2X, pfad = "data/R2X/")
+export_R2X_Files(G, pfad = "data/R2X/")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{R2X}{ is a list}
+  \item{G}{ G is an object as produced and supported by the package R.oo }
   \item{pfad}{ can be any folder name }
 }
 \details{
-  R2X is a list.
+  G is an object as produced and supported by the package R.oo. This is chosen for efficiency as G is passed by reference.
 }
 \value{
   ~Describe the value returned
@@ -25,25 +25,30 @@ export.R2X.Files(R2X, pfad = "data/R2X/")
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{  Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~ further notes ~~ }
-\seealso{ ~~objects to See Also as \code{\link{import.X2R.Files}}, ~~~ }
+\note{ ~~further notes~~ 
+
+ ~Make other sections like Warning with \section{Warning }{....} ~
+}
+\seealso{ ~~objects to See Also as \code{\link{import_X2R_Files}}, ~~~ }
 \examples{
+
+G <- ByRef(Name="byreference")
 
 x<- 1:10
 y <- matrix(LETTERS[1:25],nrow=5,ncol=5)
 
-R2X <- list(x=x,y=y)
+G$.R2X <- list(x=x,y=y)
 
 inst()
-export.R2X.Files(R2X)
+export_R2X_Files(G)
 # now the variables x and y are saved in correspoding csv files in the folder /data/R2X
 
-X2R <- list()
-X2R <- import.X2R.Files('data/R2X/')
+H <- ByRef(Name="byreference")
+import_X2R_Files(H,'data/R2X/')
 
-# now the variables x and y are loaded from correspoding csv files in the folder /data/R2X into X2R
+# now the variables x and y are loaded from correspoding csv files in the folder /data/R2X into H$.X2R
 
-#> X2R$x
+#> H\$.X2R$x
  #   x
 #1   1
 #2   2
@@ -56,7 +61,7 @@ X2R <- import.X2R.Files('data/R2X/')
 #9   9
 #10 10#
 
-#> X2R$y
+#> H$.X2R$y
 #  V1 V2 V3 V4 V5
 #1  A  F  K  P  U
 #2  B  G  L  Q  V

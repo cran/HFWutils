@@ -7,16 +7,16 @@
 \alias{Clean,matrix,character-method}
 \title{remove a pattern in an object}
 \description{
- ~~ Methods for function \code{Clean} ~~
+ ~~ Methods for function \code{Clean} in Package `.GlobalEnv' ~~
 }
 \section{Methods}{
 \describe{
 
-\item{x = "list", pattern = "character"}{ method for list object}
+\item{x = "list", pattern = "character"}{ ~~describe this method here }
 
-\item{x = "vector", pattern = "character"}{ method for vector object }
+\item{x = "vector", pattern = "character"}{ ~~describe this method here }
 
-\item{x = "matrix", pattern = "character"}{ method for matrix object}
+\item{x = "matrix", pattern = "character"}{ ~~describe this method here }
 }}
 
 \examples{

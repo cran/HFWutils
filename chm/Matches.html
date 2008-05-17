@@ -1,0 +1,154 @@
+<html><head><title>string and patterns matching in character Vector</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>Matches(HFWutils)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   Matches">
+<param name="keyword" value=" string and patterns matching in character Vector">
+</object>
+
+
+<h2>string and patterns matching in character Vector</h2>
+
+
+<h3>Description</h3>
+
+<p>
+perform string and patterns matching in character Vector
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+Matches(Vector, patt, fixed = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>Vector</code></td>
+<td>
+~~Describe <code>Vector</code> here~~ </td></tr>
+<tr valign="top"><td><code>patt</code></td>
+<td>
+~~Describe <code>patt</code> here~~ </td></tr>
+<tr valign="top"><td><code>fixed</code></td>
+<td>
+~~Describe <code>fixed</code> here~~ </td></tr>
+</table>
+
+<h3>Details</h3>
+
+<p>
+result is returned as a matrix
+</p>
+
+
+<h3>Value</h3>
+
+<p>
+~Describe the value returned
+If it is a LIST, use
+</p>
+<table summary="R argblock">
+<tr valign="top"><td><code>comp1 </code></td>
+<td>
+Description of 'comp1'</td></tr>
+<tr valign="top"><td><code>comp2 </code></td>
+<td>
+Description of 'comp2'</td></tr>
+</table>
+<p>
+
+...</p>
+
+<h3>Note</h3>
+
+<p>
+~~further notes~~
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>
+Felix Wittmann <a href="mailto:hfwittmann@gmail.com">hfwittmann@gmail.com</a>
+</p>
+
+
+<h3>References</h3>
+
+<p>
+~put references to the literature/web site here ~
+</p>
+
+
+<h3>See Also</h3>
+
+<p>
+~~objects to See Also as <code><a onclick="findlink('utils', 'help.html')" style="text-decoration: underline; color: blue; cursor: hand">help</a></code>, ~~~
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+        # Example 1
+        Vector &lt;- "sum(F17:G18)+G190*G2+ sum(A1:B2)"
+        patt &lt;- '[A-F]+[0-9]+'
+        Matches (Vector,patt)
+        
+        #                                     [A-F]+[0-9]+
+        #    sum(F17:G18)+G190*G2+ sum(A1:B2) Character,3 
+        
+        
+        # Example 2
+        Matches (c(Vector, "sum(A1:B2)"),patt)
+                 
+        #                                     [A-F]+[0-9]+
+        #   sum(F17:G18)+G190*G2+ sum(A1:B2)  Character,3 
+        #   sum(A1:B2)                        Character,2 
+        
+        
+        # Example 3
+        Matches (Vector =c("Patrick Pasot, Patrick Schmidt","Patrick Denker"),
+                 patt   =c("Patrick","Schmidt")
+                  ) # Matches
+          #                               Patrick     Schmidt    
+          #Patrick Pasot, Patrick Schmidt Character,2 "Schmidt"  
+       #Patrick Denker                 "Patrick"   Character,0
+
+        # Example 4
+        out &lt;-   Matches (Vector =c("Patrof Pasot, Patrum Schmidt","Pater Denker"),
+                  patt   =c("Pat[a-z]+")
+                   ) # Matches
+        
+        out
+       #                             Pat[a-z]+  
+       #Patrof Pasot, Patrum Schmidt Character,2
+       #Pater Denker                 "Pater"  v
+        
+        out[1,1][[1]]
+          #[1] "Patrof" "Patrum"
+
+</pre>
+
+<script Language="JScript">
+function findlink(pkg, fn) {
+var Y, link;
+Y = location.href.lastIndexOf("\\") + 1;
+link = location.href.substring(0, Y);
+link = link + "../../" + pkg + "/chtml/" + pkg + ".chm::/" + fn;
+location.href = link;
+}
+</script>
+
+
+<hr><div align="center">[Package <em>HFWutils</em> version 0.7.2007.09.02 <a href="00Index.html">Index]</a></div>
+
+</body></html>

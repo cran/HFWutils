@@ -37,8 +37,8 @@ export(df2matrix)
 export(doReplace)
 export(excelDate2Date)
 
-export(export.R2X.Files)
-export(import.X2R.Files)
+export(export_R2X_Files)
+export(import_X2R_Files)
 
 export(extractFromList)
 export(gcHFW)

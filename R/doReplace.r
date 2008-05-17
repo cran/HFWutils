@@ -5,7 +5,7 @@ FR <- function (x,sC,fixed)
   #       Replace                   By
   #       "criterion1Variable"     "BuchwerteMRott"
   {
-  sC$.vars <- gsub(pattern = x["Replace"],  replacement = x["By"], x=sC$.vars, fixed = fixed,ignore.case = !fixed)
+  sC$.vars <- gsub(x["Replace"],x["By"], sC$.vars, fixed = fixed,ignore.case = TRUE)
   } # FR <- function
 ###############################################################################
 

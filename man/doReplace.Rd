@@ -12,10 +12,10 @@ doReplace(sqlCommand, ReplaceBy, fixed = TRUE)
 \arguments{
   \item{sqlCommand}{the target string }
   \item{ReplaceBy}{ a dataframe set up with initReplaceBy }
-  \item{fixed}{ ~~ Describe \code{fixed} here ~~ }
+  \item{fixed}{ ~~Describe \code{fixed} here~~ }
 }
 \details{
-  ~~ If necessary  more details than the description above ~~
+  ~~ If necessary, more details than the description above ~~
 }
 \value{
   ~Describe the value returned
@@ -26,7 +26,10 @@ doReplace(sqlCommand, ReplaceBy, fixed = TRUE)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~ further notes ~~ }
+\note{ ~~further notes~~ 
+
+ ~Make other sections like Warning with \section{Warning }{....} ~
+}
 \seealso{ ~~objects to See Also as \code{\link{initReplaceBy}}, ~~~ }
 \examples{
 

@@ -10,10 +10,10 @@ df2matrix(x_df)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x_df}{ ~~ Describe \code{x_df} here ~~ }
+  \item{x_df}{ ~~Describe \code{x_df} here~~ }
 }
 \details{
-  ~~ If necessary more details than the description above ~~ 
+  ~~ If necessary, more details than the description above ~~
 }
 \value{
   ~Describe the value returned
@@ -24,7 +24,7 @@ df2matrix(x_df)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~ further notes ~~ }
+\note{ ~~further notes~~ }
 \seealso{  \code{\link{logDataframe}}, \code{\link{Contacts}} }
 \examples{
 

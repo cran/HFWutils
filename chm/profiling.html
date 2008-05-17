@@ -1,0 +1,94 @@
+<html><head><title>plots tree of execution times</title>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>profiling(HFWutils)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   profiling">
+<param name="keyword" value=" plots tree of execution times">
+</object>
+
+
+<h2>plots tree of execution times</h2>
+
+
+<h3>Description</h3>
+
+<p>
+determines how much time a function its and sub-functions (and sub-functions thereof etc)
+take to run (&lsquo;profiling&rsquo;). Also draws picture of this using the interrelations of
+functions.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+profiling(      s = NULL, 
+                myFunction, 
+                myEnvirons, 
+                ... , 
+                topQuantile = 0.25)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>s</code></td>
+<td>
+is optional; would be the result returned by a previous profiling run</td></tr>
+<tr valign="top"><td><code>myFunction</code></td>
+<td>
+myFunction is the function to be profiled</td></tr>
+<tr valign="top"><td><code>myEnvirons</code></td>
+<td>
+is a function defining which functions should be included in the analysis</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+are additional arguments that will in turn be passed to the &lsquo;foodweb&rsquo; function</td></tr>
+<tr valign="top"><td><code>topQuantile</code></td>
+<td>
+specify the limit for the display of the top time consumers, by quantile</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Felix Wittmann <a href="mailto:hfwittmann@gmail.com">hfwittmann@gmail.com</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+   #############################################################################
+  
+    y &lt;- 0
+
+    testFunction1 &lt;- function(X) 
+                        { 
+                          for (x in 1:X) {y &lt;- y + x} 
+                          return(y)
+                        } # function
+    testFunction2 &lt;- function(X)  testFunction1(X)
+    testFunction3 &lt;- function(X)  testFunction1(X) 
+    testFunction4 &lt;- function() {
+                                  testFunction2(1000000)
+                                  testFunction3(1000000)
+                                } # testFunction4 
+    
+  ##############################################################################
+      namespacePackage &lt;- function() find.funs("package:base")
+      workspace &lt;- function() find.funs(pos=1)
+
+   s1&lt;-profiling(myFunction=testFunction4,myEnvirons=workspace)
+
+</pre>
+
+
+
+<hr><div align="center">[Package <em>HFWutils</em> version 0.7.2007.09.02 <a href="00Index.html">Index]</a></div>
+
+</body></html>

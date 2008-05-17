@@ -2,7 +2,7 @@
 \alias{Matches}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ string and patterns matching in character Vector
-}
+}}
 \description{
   perform string and patterns matching in character Vector
 }
@@ -11,9 +11,9 @@ Matches(Vector, patt, fixed = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{Vector}{ ~~ Describe \code{Vector} here ~~ }
-  \item{patt}{ ~~ Describe \code{patt} here ~~ }
-  \item{fixed}{ ~~ Describe \code{fixed} here ~~ }
+  \item{Vector}{ ~~Describe \code{Vector} here~~ }
+  \item{patt}{ ~~Describe \code{patt} here~~ }
+  \item{fixed}{ ~~Describe \code{fixed} here~~ }
 }
 \details{
   result is returned as a matrix
@@ -27,7 +27,7 @@ Matches(Vector, patt, fixed = FALSE)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~ further notes ~~ }
+\note{ ~~further notes~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
 

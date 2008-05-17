@@ -1,20 +1,5 @@
-profiling <- function (s=NULL,myFunction,myFunctionsBase,plotType = c("profilingAll", "profilingTopQuantile" , "foodwebAll", "foodwebTopQuantile"),cex = 1,  ... ,topQuantile = 0.25)
+profiling <- function (s=NULL,myFunction,myEnvirons, ... ,topQuantile = 0.25)
  {
-
-    plottingProfilingAll 		<- FALSE
-    plottingProfilingTopQuantile 	<- FALSE
-    plottingFoodwebAll 			<- FALSE
-    plottingFoodwebTopQuantile 		<- FALSE
-
-
-   # Check plotType:
-    plotType = plotType[1]
-      if  (plotType == 'profilingAll') plottingProfilingAll = TRUE
-      if  (plotType == 'profilingTopQuantile') plottingProfilingTopQuantile = TRUE
-      if  (plotType == 'foodwebAll') plottingFoodwebAll = TRUE
-      if  (plotType == 'foodwebTopQuantile') plottingFoodwebTopQuantile = TRUE   
-      if  (plotType %!in%  c("profilingAll", "profilingTopQuantile" , "foodwebAll", "foodwebTopQuantile")) stop("plotType misspecified: profilingAll, profilingTopQuantile , foodwebAll, foodwebTopQuantile")
-
 
     if (is.null(s))
      {
@@ -27,10 +12,12 @@ profiling <- function (s=NULL,myFunction,myFunctionsBase,plotType = c("profiling
       
       row.names(s$by.total) <- Clean(x=row.names(s$by.total),pattern='"')
       namesFromProfiling<-row.names(s$by.total)
-      
+
+    f <- do.call(myEnvirons,args=list())
     
-    ## plottingFoodwebAll
-    fwb<-foodweb(funs=myFunctionsBase,cex=cex,charlim=10,plotting =plottingFoodwebAll, ...)
+    pdf(file = "data/pics/foodweb All.pdf")
+     fwb<-foodweb(funs=f,cex=0.7,charlim=10,...)
+    dev.off() 
     
     ff<-names(fwb$level)
 
@@ -43,27 +30,32 @@ profiling <- function (s=NULL,myFunction,myFunctionsBase,plotType = c("profiling
 
     ############################################################################
     # add times to function names
-    fwb2 <- foodweb(funs=row.names(sbt_alphebeticalOrder),plotting =FALSE, ...)
-
+    pdf(file = "data/pics/empty.pdf")
+      fwb2 <- foodweb(funs=row.names(sbt_alphebeticalOrder),plotting =FALSE)
+    dev.off()
+    unlink(x = "data/pics/empty.pdf")
     ############################################################################
     
     names(fwb2$level)<-names(fwb2$level[])%&% " " %&% sbt_alphebeticalOrder[,1]
     # fwb$level[] <- s$by.total[namesFromProfilinginPackage,1] # set time as level / height in plot
     ############################################################################
-    ## plottingProfilingAll
-    foodweb(fwb2,cex=cex,charlim=10,plotting =plottingProfilingAll, ...)
+    pdf(file = "data/pics/profiling All.pdf")
+     foodweb(fwb2,cex=0.7,charlim=10, ...)
+    dev.off()
     ############################# top quartile #################################
     
     tQ <- ceiling(dim(sbt)[1] * topQuantile) + 1
     sbt_tQ <- sbt[1:tQ,]
     
-    ## plottingFoodwebTopQuantile
-     fwb3<-foodweb(funs=row.names(sbt_tQ),cex=cex,charlim=10, plotting =plottingFoodwebTopQuantile)
+    pdf(file = "data/pics/foodweb topQuantile.pdf")
+     fwb3<-foodweb(funs=row.names(sbt_tQ),cex=0.7,charlim=10, ...)
+    dev.off()
     
     names(fwb3$level)<-names(fwb3$level[])%&% " " %&% sbt_tQ[,1]
     ############################################################################
-    ## plottingProfilingTopQuantile
-    foodweb(fwb3,cex=cex,charlim=10, plotting =plottingProfilingTopQuantile, ...)
+    pdf(file = "data/pics/profiling topQuantile.pdf")
+     foodweb(fwb3,cex=0.7,charlim=10, ...)
+    dev.off()
     ############################# end top quartile #############################
     
     return(s)

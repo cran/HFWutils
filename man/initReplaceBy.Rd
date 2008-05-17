@@ -3,17 +3,17 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ sets up dataframe used by doReplace}
 \description{
-  ~~ A concise 1-5 lines description of what the function does. ~~
+  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 initReplaceBy(n)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n}{ ~~ Describe \code{n} here ~~ }
+  \item{n}{ ~~Describe \code{n} here~~ }
 }
 \details{
-  ~~ If necessary more details than the description above ~~
+  ~~ If necessary, more details than the description above ~~
 }
 \value{
   ~Describe the value returned
