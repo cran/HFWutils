@@ -36,9 +36,15 @@ export(cleanTexts)
 export(df2matrix)
 export(doReplace)
 export(excelDate2Date)
+
+export(export.R2X.Files)
+export(import.X2R.Files)
+
 export(extractFromList)
 export(gcHFW)
 export(getFunctionName)
+
+
 export(initReplaceBy)
 export(inst)
 export(largeDataframe)

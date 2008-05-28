@@ -2,7 +2,7 @@
 \alias{Matches}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ string and patterns matching in character Vector
-}}
+}
 \description{
   perform string and patterns matching in character Vector
 }

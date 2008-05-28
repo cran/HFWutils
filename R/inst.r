@@ -21,6 +21,8 @@ inst <- function()
       dir.create("data/dumps/specific") # make directory
       dir.create("data/pics")           # make directory
       dir.create("data/updates")        # make directory
+      dir.create("data/R2X")        # make directory
+      dir.create("data/X2R")        # make directory
     } # if 
   
   

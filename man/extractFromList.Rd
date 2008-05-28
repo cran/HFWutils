@@ -26,10 +26,7 @@ extractFromList(mIn, names)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ 
-
- ~Make other sections like Warning with \section{Warning }{....} ~
-}
+\note{ ~~further notes~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
     
