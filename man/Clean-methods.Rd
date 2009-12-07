@@ -7,7 +7,7 @@
 \alias{Clean,matrix,character-method}
 \title{remove a pattern in an object}
 \description{
- ~~ Methods for function \code{Clean} in Package `.GlobalEnv' ~~
+ ~~ Methods for function \code{Clean} ~~
 }
 \section{Methods}{
 \describe{
