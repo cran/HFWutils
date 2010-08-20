@@ -12,11 +12,11 @@
 \section{Methods}{
 \describe{
 
-\item{x = "list", pattern = "character"}{ ~~describe this method here }
+\item{x = "list", pattern = "character"}{ method for list object}
 
-\item{x = "vector", pattern = "character"}{ ~~describe this method here }
+\item{x = "vector", pattern = "character"}{ method for vector object }
 
-\item{x = "matrix", pattern = "character"}{ ~~describe this method here }
+\item{x = "matrix", pattern = "character"}{ method for matrix object}
 }}
 
 \examples{

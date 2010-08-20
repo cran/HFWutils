@@ -10,8 +10,8 @@ align(names1, names2)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{names1}{ ~~Describe \code{names1} here~~ }
-  \item{names2}{ ~~Describe \code{names2} here~~ }
+  \item{names1}{ ~~ Describe \code{names1} here ~~ }
+  \item{names2}{ ~~ Describe \code{names2} here ~~ }
 }
 \details{
   inputs names1,names2 must have same lengths 
@@ -25,7 +25,7 @@ align(names1, names2)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
   

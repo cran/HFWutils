@@ -11,8 +11,8 @@ logDataframe(x, fileName = as.character(substitute(x)))
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{ ~~Describe \code{x} here~~ }
-  \item{fileName}{ ~~Describe \code{fileName} here~~ }
+  \item{x}{ ~~ Describe \code{x} here ~~ }
+  \item{fileName}{ ~~ Describe \code{fileName} here ~~ }
 }
 \details{
   append=TRUE
@@ -28,7 +28,7 @@ logDataframe(x, fileName = as.character(substitute(x)))
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{  \code{\link{df2matrix}}, \code{\link{Contacts}} }
 \examples{
 

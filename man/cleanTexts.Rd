@@ -11,14 +11,14 @@
 \usage{cleanTexts(x)}
 
 \arguments{
-  \item{x}{ ~~Describe \code{x} here~~ }
+  \item{x}{ ~~ Describe \code{x} here ~~ }
 }
 
-\details{~~ If necessary, more details than the description above ~~}
+\details{ ~~ If necessary more details than the description above ~~ }
 
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{

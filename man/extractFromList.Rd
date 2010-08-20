@@ -11,11 +11,11 @@ extractFromList(mIn, names)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{mIn}{ ~~Describe \code{mIn} here~~ }
-  \item{names}{ ~~Describe \code{names} here~~ }
+  \item{mIn}{ ~~ Describe \code{mIn} here ~~ }
+  \item{names}{ ~~ Describe \code{names} here ~~ }
 }
 \details{
-  ~~ If necessary, more details than the description above ~~
+  ~~ If necessary more details than the description above ~~
 }
 \value{
   ~Describe the value returned
@@ -26,7 +26,7 @@ extractFromList(mIn, names)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
     

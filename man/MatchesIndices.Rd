@@ -10,9 +10,9 @@ MatchesIndices(x, patt,fixed=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{ ~~Describe \code{x} here~~ }
-  \item{patt}{ ~~Describe \code{patt} here~~ }
-  \item{fixed}{ ~~Describe \code{fixed} here~~ }
+  \item{x}{ ~~ Describe \code{x} here ~~ }
+  \item{patt}{ ~~ Describe \code{patt} here ~~ }
+  \item{fixed}{ ~~ Describe \code{fixed} here ~~ }
 }
 \details{
   returns two indices one correspoding to  the character vector, abnother to the
@@ -27,7 +27,7 @@ MatchesIndices(x, patt,fixed=FALSE)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
       # Example 1

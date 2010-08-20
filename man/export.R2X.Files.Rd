@@ -1,7 +1,7 @@
 \name{export.R2X.Files}
 \alias{export.R2X.Files}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ ~~function to do ... ~~ }
+\title{ ~~ function to do ... ~~ }
 \description{
   export all variables held in R2X into csv files
 }
@@ -25,7 +25,7 @@ export.R2X.Files(R2X, pfad = "data/R2X/")
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{  Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{import.X2R.Files}}, ~~~ }
 \examples{
 

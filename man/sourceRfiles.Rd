@@ -10,10 +10,10 @@ sourceRfiles(pfade = "R/")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{pfade}{ ~~Describe \code{pfade} here~~ }
+  \item{pfade}{ ~~ Describe \code{pfade} here ~~ }
 }
 \details{
-  ~~ If necessary, more details than the description above ~~
+  ~~ If necessary more details than the description above ~~
 }
 \value{
   ~Describe the value returned
@@ -24,7 +24,7 @@ sourceRfiles(pfade = "R/")
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
 

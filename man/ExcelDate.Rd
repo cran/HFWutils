@@ -3,14 +3,14 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ convert date to Excel date integer}
 \description{
-  ~~ A concise (1-5 lines) description of what the function does. ~~
+  ~~ A concise description of what the function does. ~~
 }
 \usage{
 as.ExcelDate(DateIn)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{DateIn}{ ~~Describe \code{DateIn} here~~ }
+  \item{DateIn}{ ~~ Describe \code{DateIn} here ~~ }
 }
 \details{
    stimmt nicht vor "1900-03-01"
@@ -24,7 +24,7 @@ as.ExcelDate(DateIn)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{excelDate2Date}}, ~~~ }
 \examples{
 

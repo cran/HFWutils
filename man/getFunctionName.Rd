@@ -3,17 +3,17 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ knows name of current function }
 \description{
-  ~~ A concise (1-5 lines) description of what the function does. ~~
+  ~~ A concise 1-5 lines description of what the function does. ~~
 }
 \usage{
 getFunctionName(generationBack = 1)
 }
 \arguments{
-  \item{generationBack}{ ~~Describe \code{generationBack} here~~ }
+  \item{generationBack}{ ~~ Describe \code{generationBack} here ~~ }
 }
 %- maybe also 'usage' for other objects documented here.
 \details{
-  ~~ If necessary, more details than the description above ~~
+  ~~ If necessary more details than the description above ~~
 }
 \value{
   ~Describe the value returned
@@ -24,8 +24,8 @@ getFunctionName(generationBack = 1)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
-\seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
+\note{ ~~ further notes ~~ }
+\seealso{ ~~ objects to See Also as \code{\link{help}}, ~~ }
 \examples{
 
 

@@ -3,17 +3,17 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ convert Excel date integer to date}
 \description{
-  ~~ A concise (1-5 lines) description of what the function does. ~~
+  ~~ A concise 1-5 lines description of what the function does. ~~
 }
 \usage{
 excelDate2Date(excelDate)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{excelDate}{ ~~Describe \code{excelDate} here~~ }
+  \item{excelDate}{ ~~ Describe \code{excelDate} here ~~ }
 }
 \details{
-  stimmt nicht vor "1900-03-01" 
+  stimmt nicht vor 1900-03-01
 }
 \value{
   ~Describe the value returned
@@ -24,7 +24,7 @@ excelDate2Date(excelDate)
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ Felix Wittmann \email{hfwittmann@gmail.com}}
-\note{ ~~further notes~~ }
+\note{ ~~ further notes ~~ }
 \seealso{ ~~objects to See Also as \code{\link{as.ExcelDate}}, ~~~ }
 \examples{
    excelDate2Date(39097)
