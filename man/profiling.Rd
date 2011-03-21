@@ -10,7 +10,9 @@
 \usage{
 profiling(      s = NULL, 
                 myFunction, 
-                myEnvirons, 
+                myFunctionsBase,
+		plotType = c("profilingAll", "profilingTopQuantile" , "foodwebAll", "foodwebTopQuantile"), 
+		cex = 1, 
                 ... , 
                 topQuantile = 0.25)
 }
@@ -18,7 +20,13 @@ profiling(      s = NULL,
 \arguments{
   \item{s}{is optional; would be the result returned by a previous profiling run}
   \item{myFunction}{ myFunction is the function to be profiled}
-  \item{myEnvirons}{is a function defining which functions should be included in the analysis}
+  \item{myFunctionsBase}{is a character vector of the functions that are used in the analysis}
+  \item{plotType}{
+    a character string either \code{"profilingAll"}, \code{"profilingTopQuantile"} for a foodwebplot including the profiled times
+    or a \code{"foodwebAll"}, \code{"foodwebTopQuantile"} for the foodwebplot without the profiled times. TopQuantile shows only the 
+    functions that were profiled to take the most time
+    }
+  \item{cex}{is a standard plot parameter relating to the font size}  
   \item{...}{are additional arguments that will in turn be passed to the \sQuote{foodweb} function}
   \item{topQuantile}{specify the limit for the display of the top time consumers, by quantile}
 }
@@ -42,11 +50,15 @@ profiling(      s = NULL,
                                 } # testFunction4 
     
   ##############################################################################
-      namespacePackage <- function() find.funs("package:base")
-      workspace <- function() find.funs(pos=1)
+#       namespacePackage <- find.funs("package:base")
+      myFunctionsBase <-  find.funs(pos=1) %except% 'ByRef'
+      ##ByRef is R.oo-based; R.oo-based contructions don't seem to work with the foodweb from the mvbutils package
 
 
-   s1<-profiling(myFunction=testFunction4,myEnvirons=workspace)
+   s1<-profiling(myFunction=testFunction4,myFunctionsBase=myFunctionsBase,plotType = "profilingAll")
+   s2<-profiling(myFunction=testFunction4,myFunctionsBase=myFunctionsBase,plotType = "profilingTopQuantile")
+   s3<-profiling(myFunction=testFunction4,myFunctionsBase=myFunctionsBase,plotType = "foodwebAll")
+   s4<-profiling(myFunction=testFunction4,myFunctionsBase=myFunctionsBase,plotType = "foodwebTopQuantile")
 
 }
 \keyword{manip}% at least one, from doc/KEYWORDS
